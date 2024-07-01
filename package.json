@@ -1,0 +1,17 @@
+{
+  "name": "discordfrcbot",
+  "version": "1.0.0",
+  "description": "FRC Discord Bot that can query TheBlueAlliance, Statbotics, and your own scouting. Along with other features",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "discord.js": "^14.15.3",
+    "dotenv": "^16.4.5",
+    "nodemon": "^3.1.4"
+  }
+}
