@@ -4,7 +4,7 @@
   "description": "FRC Discord Bot that can query TheBlueAlliance, Statbotics, and your own scouting. Along with other features",
   "main": "index.js",
   "scripts": {
-    "test": "nodemon index.js"
+    "test": "nodemon index.js --trace-warnings --env-file=.env "
   },
   "author": "",
   "license": "ISC",
